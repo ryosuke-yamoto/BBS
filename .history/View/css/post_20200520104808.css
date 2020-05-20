@@ -1,0 +1,45 @@
+body {
+  background-color: #DDDDDD;
+}
+
+.main-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  width: 70%;
+  height: 60%;
+  text-align: center;
+}
+
+.post-wrap {
+  margin: 0 auto;
+  width: 80%;
+}
+.comment-wrap {
+  margin: 30px auto 0 auto;
+  width: 80%;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  border: 1px solid black;
+}
+
+li:not(:first-child) {
+  margin-top: 30px;
+}
+
+.home-button {
+  margin-top: 30px;
+}
+.title {
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.content {
+  margin: 20px auto 0 auto ;
+  width: 50%;
+  border: 1px solid black;
+}
