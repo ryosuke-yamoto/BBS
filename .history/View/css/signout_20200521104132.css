@@ -1,0 +1,14 @@
+body {
+  background-color: #DDDDDD;
+}
+
+/*  */
+
+.signout-button {
+  margin-right: 40px;
+}
+
+.home-button {
+  color: black;
+  text-decoration: none;
+}
